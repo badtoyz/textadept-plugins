@@ -5,6 +5,13 @@
 #       VERSION:  1.0.0
 # ------------------------------------------------------------------------------
 
+#-------------------------------------------------------------------------------
+# Install
+#
+# put textadept.zsh in your ~/.oh-my-zsh/custom
+# edit your .zsh and add textadept plugin
+#-------------------------------------------------------------------------------
+
 # look for textadept-curses
 if [ -f '/usr/local/bin/textadept-curses' ];then
     alias ta='textadept-curses'

@@ -1,9 +1,18 @@
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 #          FILE:  init.zsh
 #   DESCRIPTION:  Prezto module.
 #        AUTHOR:  Mike Robinson (badtoyz@gmail.com)
 #       VERSION:  1.0.0
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Install
+#
+# mkdir ~/.zprezto/modules/textadept
+# cp init.zsh ~/.zprezto/modules/textadept
+# edit your .zpreztorc and add textadept module
+#-------------------------------------------------------------------------------
+
 # look for textadept-curses
 if [ -f '/usr/local/bin/textadept-curses' ];then
     alias ta='textadept-curses'
