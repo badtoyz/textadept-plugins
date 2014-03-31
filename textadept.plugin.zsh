@@ -8,7 +8,7 @@
 #-------------------------------------------------------------------------------
 # Install
 #
-# put textadept.zsh in your ~/.oh-my-zsh/custom
+# put textadept.plugin.zsh in your ~/.oh-my-zsh/custom
 # edit your .zsh and add textadept plugin
 #-------------------------------------------------------------------------------
 
