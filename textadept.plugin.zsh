@@ -8,8 +8,8 @@
 #-------------------------------------------------------------------------------
 # Install
 #
-# put textadept.plugin.zsh in your ~/.oh-my-zsh/custom
-# edit your .zsh and add textadept plugin
+# cp textadept.plugin.zsh ~/.oh-my-zsh/custom
+# edit your .zshrc and add textadept plugin
 #-------------------------------------------------------------------------------
 
 # look for textadept-curses

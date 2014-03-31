@@ -1,4 +1,4 @@
-Textadept
+#Textadept
 =========
 [Textadept](http://foicica.com/textadept/) A fast, minimalist, and remarkably extensible cross-platform text editor
 
@@ -6,7 +6,7 @@ Custom alias's for textadept and textadept-curses
 
 
 
-Aliases
+#Aliases
 -------
     - `ta` textadept-curses
     - `taj` textadeptjit-curses
@@ -27,7 +27,19 @@ Aliases
 
             Textadept curses does not support the help switch
 
-Author
+#Install
+-------
+
+##Prezto
+        mkdir ~/.zprezto/modules/textadept
+        p init.zsh ~/.zprezto/modules/textadept
+        edit your .zpreztorc and add textadept module
+
+##Oh-My-Zsh
+        cp textadept.plugin.zsh in your ~/.oh-my-zsh/custom
+        edit your .zshrc and add textadept plugin            
+            
+#Author
 ------
 
 [Mike Robinson](https://github.com/badtoyz)
