@@ -32,7 +32,7 @@ Custom alias's for textadept and textadept-curses
 
 ##Prezto
         mkdir ~/.zprezto/modules/textadept
-        p init.zsh ~/.zprezto/modules/textadept
+        cp init.zsh ~/.zprezto/modules/textadept
         edit your .zpreztorc and add textadept module
 
 ##Oh-My-Zsh
