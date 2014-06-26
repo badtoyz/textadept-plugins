@@ -2,7 +2,7 @@
 #          FILE:  textadept.plugin.zsh
 #   DESCRIPTION:  oh-my-zsh plugin file.
 #        AUTHOR:  Mike Robinson (badtoyz@gmail.com)
-#       VERSION:  1.0.0
+#       VERSION:  1.0.1
 # ------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
@@ -12,22 +12,25 @@
 # edit your .zshrc and add textadept plugin
 #-------------------------------------------------------------------------------
 
-# look for textadept-curses
+# Look for textadept-curses
+
 if [ -f '/usr/local/bin/textadept-curses' ];then
-    alias ta='textadept-curses'
-    alias taj='textadeptjit-curses'
-    alias taedit='textadept-curses ~/.textadept/init.lua'
+    alias ta='textadeptjit-curses'
+    alias taedit='textadeptjit-curses ~/.textadept/init.lua'
   else
 fi
-# look for textadept
+
+# Look for textadept
+
 if [ -f '/usr/local/bin/textadept' ];then
-    alias taui='textadept'
-    alias tauij='textadeptjit'
-    alias tauiedit='textadept ~/.textadept/init.lua'
+    alias taui='textadeptjit'
+    alias tauiedit='textadeptjit ~/.textadept/init.lua'
   else
 fi
-# help
-function taHelp(){
+
+# Help
+
+function tahelp(){
     echo "Usage: textadept [args] [filenames]"
     echo ""
     echo "    -e, --execute  1  Run Lua code."
@@ -39,4 +42,3 @@ function taHelp(){
     echo ""
     echo "Textadept curses does not support the help switch"
 }
-alias tahelp=taHelp

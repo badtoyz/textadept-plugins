@@ -8,12 +8,10 @@ Custom alias's for textadept and textadept-curses
 
 #Aliases
 -------
-    - `ta` textadept-curses
-    - `taj` textadeptjit-curses
-    - `taedit`textadept-curses ~/.textadept/init.lua
-    - `taui` textadept
-    - `tauij` textadeptjit
-    - `tauiedit` textadept ~/.textadept/init.lua
+    - `ta` textadeptjit-curses
+    - `taedit`textadeptjit-curses ~/.textadept/init.lua
+    - `taui` textadeptjit
+    - `tauiedit` textadeptjit ~/.textadept/init.lua
     - `tahelp` help output for textadept
     
             Usage: textadept [args] [filenames]
